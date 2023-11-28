@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RALPH G</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7baef2d1c7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Logo_Aclonica.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hello, I am <br><span>Ralph Garcia</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/R1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi everyone, I am <i><b>Ralph Ryan P. Garcia</b></i> a graduate of Bachelor of Science in Computer Science.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span><b>HTML</b></span><i class="fa-brands fa-html5 fa-flip"></i></li>
+                            <li><span><b>CSS</b></span><i class="fa-brands fa-css3-alt fa-flip"></i></li>
+                            <li><span><b>PHP</b></span><i class="fa-brands fa-php fa-flip"></i></li>
+                            <li><span><b>JAVA</b></span><i class="fa-brands fa-java fa-flip"></i></li>
+                            <li><span><b>JAVASCRIPT</b></span><i class="fa-brands fa-square-js fa-flip"></i></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span><b>Tertiary</b></span><br>Manuel V. Gallego Foundation Colleges Inc.</li>
+                            <li><span><b>Secondary</b></span><br>Nueva Ecija High School</li>
+                            <li><span><b>Primary</b></span><br>ACA Elementary School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------Works----------
+    <div id="Works">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="works-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code fa-beat" style="color: #0047ab;"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Learn more...</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-screen-button fa-beat" style="color: #0047ab;"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Learn more...</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-ruler fa-beat" style="color: #0047ab;"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Learn more...</a>
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+    <!-- --------Projects-------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="Images/Projects.jpg">
+                    <div class="layer">
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href=""><i class="fa-solid fa-square-arrow-up-right" style="color: #0047ab;"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Projects.jpg">
+                    <div class="layer">
+                        <h3>Transcription</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href=""><i class="fa-solid fa-square-arrow-up-right" style="color: #0047ab;"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Projects.jpg">
+                    <div class="layer">
+                        <h3>Data Encoding</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href=""><i class="fa-solid fa-square-arrow-up-right" style="color: #0047ab;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">Looking for more?</a>
+        </div>
+    </div>
+    <!-- ----------Contact---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Get in touch.</h1>
+                    <p><i class="fa-solid fa-envelope-open-text fa-beat-fade" style="color: #0047ab;"></i> ralphg0198@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume fa-beat-fade" style="color: #0047ab;"></i> +63-966-1489-256</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/raaaaalph01"><i class="fa-brands fa-facebook fa-beat-fade"></i></a>
+                        <a href="https://instagram.com/raaaaalph01"><i class="fa-brands fa-square-instagram fa-beat-fade"></i></a>
+                        <a href="https://web.telegram.org/Raaaaalph01"><i class="fa-brands fa-telegram fa-beat-fade"></i></a>
+                    </div>
+                    <a href="Images/Ralph_Ryan_Garcia-CV.pdf" download class="btn btn2">Get my CV</a>
+                </div>
+                <div class="contact-right">
+                    <h2>Any further enquiries? Leave a message.</h2>
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="Message" rows="5" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn2">Send Message </i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="fa-sharp fa-solid fa-copyright fa-flip"></i> 2023 Ralph Ryan Garcia</p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
